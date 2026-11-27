@@ -1,0 +1,14 @@
+{
+  "slug": "FundamentalTheoremArithmetic",
+  "issue": "TuriMath/fundamental-theorem-arithmetic#1",
+  "tier": 0,
+  "source": "Wikipedia, Fundamental theorem of arithmetic (lead sentence); Wiedijk 100, item 80",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["Nat.exists_prime_and_dvd", "Nat.Prime.dvd_mul", "Nat.prime_dvd_prime_iff_eq", "Nat.Prime.two_le", "Nat.Prime.pos", "Nat.strong_induction_on", "List.perm_cons_erase", "List.Perm.prod_eq", "List.Perm.cons", "List.erase_subset", "Nat.eq_of_mul_eq_mul_left", "Nat.dvd_one"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Did not use Nat.primeFactorsList / primeFactorsList_unique. Existence: strong induction via a prime divisor. Uniqueness: induction on one list with Euclid's lemma, then cancel. Compiled first try."
+}

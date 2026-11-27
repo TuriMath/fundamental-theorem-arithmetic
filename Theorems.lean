@@ -2,3 +2,4 @@
 import Theorems.FundamentalTheoremArithmetic.A
 import Theorems.FundamentalTheoremArithmetic.B
 import Theorems.FundamentalTheoremArithmetic.Equiv
+import Theorems.FundamentalTheoremArithmetic.Proof
