@@ -1,1 +1,4 @@
 # sha256  path. Statements locked after their A<->B PR merged. Lines are only ever added (scripts/gate.py, check 6).
+e9fab2aae3aa1253c4ce569ca45fac77adf129aa70e7709a9878b5e0301b7565  Theorems/FundamentalTheoremArithmetic/A.lean
+add93379a4b61788cc3d10f61c1a56c5267ce76f83889cec10e2b0c372d651ff  Theorems/FundamentalTheoremArithmetic/B.lean
+11a8461552093a11bbddda5cda95560b5856322f3d7d663dffa1dad62b2a824d  Theorems/FundamentalTheoremArithmetic/Equiv.lean
